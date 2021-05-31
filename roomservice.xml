@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project name="bertin0/android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" remote="github" revision="dot11" />
-    <project name="bertin0/android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="github" revision="dot11"/>
+    <remote name="personal" fetch="ssh://git@github.com/bertin0" revision="dot11" />
+
+    <project name="android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" remote="personal" revision="dot11" />
+    <project name="android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="personal" revision="dot11"/>
     <project name="exynos9820-dev/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" revision="lineage-18.1" />
     <project name="exynos9820-dev/android_vendor_samsung_beyond2lte" path="vendor/samsung/beyond2lte" remote="github" revision="lineage-18.1" />
     <project name="exynos9820-dev/android_vendor_samsung_exynos9820-common" path="vendor/samsung/exynos9820-common" remote="github" revision="lineage-18.1" />
     <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-18.1" />
-    <project name="bertin0/android_hardware_samsung" path="hardware/samsung" remote="github" revision="dot11" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="personal" revision="dot11" />
+    <project name="LineageOS/android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="github" revision="lineage-18.1" />
 </manifest>
