@@ -2,7 +2,11 @@
 <manifest>
     <remote name="personal" fetch="ssh://git@github.com/bertin0" revision="dot11" />
 
+    <project name="android_device_samsung_beyond0lte" path="device/samsung/beyond0lte" remote="personal" revision="dot11" />
+    <project name="android_device_samsung_beyond1lte" path="device/samsung/beyond1lte" remote="personal" revision="dot11" />
     <project name="android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" remote="personal" revision="dot11" />
+    <project name="android_device_samsung_beyondx" path="device/samsung/beyondx" remote="personal" revision="dot11" />
+
     <project name="android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="personal" revision="dot11"/>
     <project name="exynos9820-dev/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" revision="lineage-18.1" />
     <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="personal" revision="dot11" />
