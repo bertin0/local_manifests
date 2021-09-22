@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="personal" fetch="ssh://git@github.com/bertin0" revision="dot11" />
+    <remote name="personal" fetch="https://github.com/bertin0"/>
 
     <project name="android_device_samsung_beyond0lte" path="device/samsung/beyond0lte" remote="personal" revision="dot11" />
     <project name="android_device_samsung_beyond1lte" path="device/samsung/beyond1lte" remote="personal" revision="dot11" />
