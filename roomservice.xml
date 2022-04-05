@@ -4,14 +4,14 @@
 
     <project name="android_device_samsung_beyond0lte" path="device/samsung/beyond0lte" remote="personal" revision="dot11" />
     <project name="android_device_samsung_beyond1lte" path="device/samsung/beyond1lte" remote="personal" revision="dot11" />
-    <project name="android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" remote="personal" revision="dot12" />
+    <project name="android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" remote="personal" revision="dot12.1" />
     <project name="android_device_samsung_beyondx" path="device/samsung/beyondx" remote="personal" revision="dot11" />
 
-    <project name="android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="personal" revision="dot12"/>
+    <project name="android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="personal" revision="dot12.1"/>
 
-    <project name="LineageOS/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" revision="lineage-19.0" />
-    <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-19.0" />
-    <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-19.0" />
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="personal" revision="dot12" />
-    <!-- <project name="LineageOS/android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="github" revision="lineage-19.0" /> -->
+    <project name="LineageOS/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" revision="lineage-19.1" />
+    <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-19.1" />
+    <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-19.1" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="personal" revision="dot12.1" />
+    <!-- <project name="LineageOS/android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="github" revision="lineage-19.1" /> -->
 </manifest>
